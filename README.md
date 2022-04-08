@@ -1,5 +1,5 @@
 # hw2
-This is the first programming assignment of the computer science track for Paragon National Group. The questions will cover the topics learned in the first lecture, which entailed print statements, various data types, variables, basic operations, and conditionals.
+This is the second programming assignment of the computer science track for Paragon National Group. The questions will cover the topics learned in the second lecture, which entailed recursive functions, for and while loops, string indexing, and linked lists.
 
 Carefully read over the specifications of each function that is given in the header description.
 
