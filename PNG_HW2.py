@@ -19,8 +19,16 @@
 #     iterative_palindrome(12) -> false
 #     iterative_palindrome(2468642) -> true
 def iterative_palindrome(n):
-    #TODO
-    return
+    tf = True
+    if len(n) == 1:
+       tf = True
+    else:
+        for i in range(len(n)):
+            if n[i] != n[-(i+1)]:
+                tf = False
+                break
+    
+    return tf
 
 # This function is the same as iterative_palindrome() except instead of using a
 # loop, implement the function in a recursive way.
@@ -47,8 +55,12 @@ def factorial(n):
 #     is_prime(12) -> false
 #     is_prime(23) -> true
 def is_prime(n):
-    #TODO
-    return
+    tf = True
+    for i in range(2,len(n)):
+        if n%i ==0:
+            tf = False
+            break
+    return tf
 
 # Function that creates a node to help testing of sum_factorials()
 class Node:
